@@ -69,7 +69,7 @@ def fmtHC(n):
 # =========================================================
 st.sidebar.header("Data source")
 
-DEFAULT_URL = "https://j2w-my.sharepoint.com/:x:/g/personal/tapas_kumar_joulestowatts_com/IQCmnlvAygLjRb8m6_mTGcFLAROUSWWAtZYjuAvW_4X12RM?e=a00R6U"
+DEFAULT_URL = ""
 try:
     DEFAULT_URL = st.secrets.get("DATA_URL", "")
 except Exception:
